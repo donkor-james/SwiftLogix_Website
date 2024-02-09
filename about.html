@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="border-b-[1px] border-slate-700 justify-center ">
+        <div class="flex justify-center lef">
+            <div class="flex justify-center w-[1020px] mt-3 space-x-52 md:flex md:justify-between ">
+                <img class=" w-28 h-[86px]" src="images/HeaderIcon.jpg" alt="Logo">
+                <div class="hidden mt-2 md:inline-flex space-x-1 text-center">
+                    <img class="w-4 h-6 mt-1" src="images/phone.png" alt="phone">
+                    <div>
+                        <h2 class="font-semibold">+386 00 000 010</h2>
+                        <p class=" text-slate-500 text-[11px] mt-0">info@swiftlogix.org</p>
+  
+                    </div>
+                </div>
+                <div class="inline-flex mt-3 space-x-2">
+                    <img class="w-6 h-7 mt-1" src="images/clock.png" alt="phone">
+                    <div>
+                        <h2 class="flex mb-0 font-semibold">9:00-18:00</h2>
+                        <p class=" text-slate-500 text-[11px] mt-0">Monday - Friday</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </header>
+    <nav class="top-0 flex md:justify-center items-center bg-white h-14 md:h-20">
+        <div class="hidden md:flex relative">
+            <ul class="flex font-semibold text-slate-700 space-x-24">
+                <a class="hover:text-slate-500" href="#">Home</a>
+                <a class="hover:text-slate-500" href="about.html">About Us</a>
+                <a class="hover:text-slate-500" href="services.html">Services</a>
+                <a class="hover:text-slate-500" href="Contact.html">Contact</a>
+            </ul>
+        </div>
+
+        <div class="flex">
+            <button id="menu-btn" class="flex hamburger ml-3 focus:outline-none md:hidden">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex-col hidden bg-white items-center w-44 h-72 py-7 mt-8
+                space-y-8 font-bold right-4 left-4 drop-shadow-md">
+                <a href="home.html" class=" hover:text-slate-600">Home</a>
+                <a href="#" class=" hover:text-slate-600">About Us</a>
+                <a href="services.html" class=" hover:text-slate-600">Services</a>
+                <a href="Contact.html" class=" hover:text-slate-600">Contact</a>
+
+            </div>
+        </div>
+    </nav>
+
+    <section id="about-hero" class=" flex flex-col p-12 h-[540px] items-center justify-center text-white space-y-7">
+        <div class="flex text-5xl">
+            Efficiency and Innovation    
+        </div>
+        <div class="text-2xl">
+            The Driving Forces Of Our Operation
+        </div> 
+    </section>
+
+    <section class="flex flex-col items-center mt-32">
+        <div class="text-5xl font-[420] text-center">About Our Company</div>
+        <div class="flex flex-col mt-14 container">
+
+            <div class="ml-20">
+                <h1 class="text-[22px] font-semibold text-slate-700 " >Who We Are:</h1>
+                <div class="mt-3">Our company was founded in 2005 by a group of logistics professionals who 
+                    saw a need for a more customer-centric approach to logistics.
+                    Over the years, we have grown from a small startup to a leading logistics 
+                    provider with a nationwide presence. We have achieved this growth by staying 
+                    true to our founding principles of putting our clients first and providing them with
+                    the highest level of service possible. 
+                    <p>
+                        Today, we offer a wide range of logistics services, including transportation management, 
+                    warehousing and distribution, and supply chain consulting. We work with businesses in a 
+                    variety of industries, from retail and consumer goods to healthcare and technology
+                    </p> 
+                </div>
+            </div>
+
+            <div class="ml-20 mt-6">
+                <h1 class="text-[22px] font-semibold text-slate-700 " >Our Mission:</h1>
+                <div class="mt-3">Our mission is to simplify the logistics process for our clients, allowing them 
+                    to focus on their core business while we take care of their transportation and 
+                    supply chain needs. We understand that every business is unique, which is why we 
+                    offer customized logistics solutions tailored to meet the specific requirements of 
+                    each client.
+                    <p>
+                        We believe in building strong relationships with our clients and partners, and we strive 
+                        to maintain open communication throughout the logistics process. Our goal is to become your 
+                        trusted logistics partner and help your business grow.
+                    </p>
+                    
+                </div>
+            </div>        
+        </div>
+    </section>
+
+    <section>
+        <div class="flex items-center justify-center">
+            <form class="flex md:hidden mt-48 relative flex-col space-y-7" action="">
+                <div class="text-center text-3xl">
+                    Subscibe To Our Newsletters
+                </div>
+                <div class="flex flex-row space-x-5 ">
+                    <div class="flex flex-col">
+                        <!-- <input class="bg-blue-900 mt-5 border-b-2 border-white" type="text" placeholder="Full Name"> -->
+                        <input class="h-10 mt-5 border-b-2 border-black w-80" type="email" name="email"
+                            placeholder="Email" id="">
+                    </div>
+                    <div class="">
+                        <input class="relative text-white top-3 bg-black px-5 py-3" type="submit" value="submit">
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-blue-900 md:mt-40 mt-36 px-4 py-8 text-white justify-center">
+
+        <div class="flex justify-between md:mx-0">
+            <div class="ml-14 space-y-6">
+                <h1 class="text-xl">
+                    Contact
+                </h1>
+                <div class="space-y-2">
+                    <p class="font-semibold">
+                        SwiftLogix
+                    </p>
+                    <p>
+                        Tel +386 00 000 010
+                    </p>
+                    <p>
+                        Email swiftlogix@gmail.com
+                    </p>
+                </div>                  
+
+            </div>
+
+            
+            <div class="flex flex-col mr-0 space-y-5">
+                <div class="text-xl">Category</div>
+
+                <div class="flex flex-col text-lg space-y-1">
+                <a class="hover:text-slate-400" href="home.html">Home</a>
+                <a class="hover:text-slate-400" href="#">About Us</a>
+                <a class="hover:text-slate-400" href="services.html">Services</a>
+                <a class="hover:text-slate-400" href="Contact.html">Contact</a>
+                </div>
+
+            </div>
+
+            <div class="hidden md:flex flex-col space-y-6">
+                <h2 class="text-lg"> Stay Connected</h2>
+                <div class="space-y-1">
+                    <div class="flex flex-row space-x-3">
+                        <img class="w-7" src="images/facebook.png" alt="">
+                        <h2>Facebook</h2>
+                    </div>
+    
+                    <div class="flex flex-row space-x-3">
+                        <img class="w-7" src="images/instagram.png" alt="">
+                        <h2>Instagram</h2>
+                    </div>
+    
+                    <div class="flex flex-row space-x-3">
+                        <img class="w-7" src="images/youtube.png" alt="">
+                        <h2>Youtube</h2>
+                    </div>
+    
+                    <div class="flex flex-row space-x-3">
+                        <img class="w-7" src="images/twitter-sign.png" alt="">
+                        <h2>Twitter</h2>
+                    </div>
+    
+    
+                </div>
+            </div>
+
+            <div class=" flex">
+                <form class="hidden relative text-center justify-center md:flex flex-col space-y-5" action="">
+                    <div>
+                        Subscibe To Our Newsletters
+                    </div>
+                    <div class="flex flex-row space-x-3 ">
+                        <div class="flex flex-col">
+                            <!-- <input class="bg-blue-900 mt-5 border-b-2 border-white" type="text" placeholder="Full Name"> -->
+                            <input class="bg-blue-900 mt-5 border-b-2 border-white w-52" type="email" 
+                            name="email" placeholder="Email" id="">
+                        </div>
+                        <div class="">
+                            <input class="relative top-2 bg-black p-2" type="submit" value="submit">
+                        </div>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="md:hidden mt-14 flex flex-col text-white items-center space-y-3">
+            <h2 class="text-lg"> Stay Connected</h2>
+            <div class="flex flex-row space-x-4 mb-12">
+                <div class="flex">
+                    <img class="w-12 h-12" src="images/facebook.png" alt="">
+                </div>
+
+                <div class="flex">
+                    <img class="w-12 h-12" src="images/instagram.png" alt="">
+                </div>
+
+                <div class=" space-x-3">
+                    <img class="w-12 h-12" src="images/youtube.png" alt="">
+                </div>
+
+                <div class="flex flex-row space-x-3">
+                    <img class="w-12 h-12" src="images/twitter-sign.png" alt="">
+                </div>
+
+
+            </div>
+            
+        </div>
+
+        <div class="md:hidden text-center mt-9">
+            Copyright &copy; 2023, All Rights Reserved
+        </div>
+    
+        <div class="hidden md:block mt-14 mr-2 mb-0 text-right">
+            Copyright &copy; 2023, All Rights Reserved
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

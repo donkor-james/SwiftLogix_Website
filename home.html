@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="border-b-[1px] border-slate-700 justify-center ">
+        <div class="flex justify-center lef">
+            <div class="flex justify-center w-[1020px] mt-3 space-x-52 md:flex md:justify-between ">
+                <img class=" w-28 h-[88px]" src="images/HeaderIcon.jpg" alt="Logo">
+                <div class="hidden mt-2 md:inline-flex space-x-1 text-center">
+                    <img class="w-4 h-6 mt-1" src="images/phone.png" alt="phone">
+                    <div>
+                        <h2 class="font-semibold">+386 00 000 010</h2>
+                        <p class=" text-slate-500 text-[11px] mt-0">info@swiftlogix.org</p>
+
+                    </div>
+                </div>
+                <div class="inline-flex mt-3 space-x-2">
+                    <img class="w-6 h-7 mt-1" src="images/clock.png" alt="phone">
+                    <div>
+                        <h2 class="flex mb-0 font-semibold">9:00-18:00</h2>
+                        <p class=" text-slate-500 text-[11px] mt-0">Monday - Friday</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+    <nav class="top-0 flex md:justify-center items-center bg-white h-14 md:h-20">
+        <div class="hidden md:flex relative">
+            <ul class="flex font-semibold text-slate-700 space-x-24">
+                <a class="hover:text-slate-500" href="#">Home</a>
+                <a class="hover:text-slate-500" href="about.html">About Us</a>
+                <a class="hover:text-slate-500" href="services.html">Services</a>
+                <a class="hover:text-slate-500" href="Contact.html">Contact</a>
+            </ul>
+        </div>
+
+        <div class="flex">
+            <button id="menu-btn" class="flex hamburger ml-3 focus:outline-none md:hidden">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex-col hidden bg-white items-center w-44 h-72 py-7 mt-8
+                space-y-8 font-bold right-4 left-4 drop-shadow-md">
+                <a href="#" class=" hover:text-slate-600">Home</a>
+                <a href="about.html" class=" hover:text-slate-600">About Us</a>
+                <a href="services.html" class=" hover:text-slate-600">Services</a>
+                <a href="Contact.html" class=" hover:text-slate-600">Contact</a>
+
+            </div>
+        </div>
+    </nav>
+    <section id="hero" class="p-12 h-[540px]  text-white">
+        <div class="text-center mt-24 mb-14">
+            <div class="text-center text-3xl space-y-2">
+                <h1 class="font-semibold text-5xl">Logistic Delivery Services</h1>
+                <h3>Everywhere Around The World</h3>
+            </div>
+            <div class="inline-flex mt-8 space-x-4 ">
+                <a href="services.html"
+                    class="p-2 px-4 py- bg-blue-800 text-lg text-center hover:bg-blue-700 hover:text-slate-200">
+                    Get Started
+                </a>
+                <a href="about.html" class="p-2 text-center text-lg bg-black hover:text-slate-200">
+                    Discover More
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="text-center">
+        <div class="font-semibold text-center text-3xl text-slate-800 mt-32">Our Advantage</div>
+        <div class="mx-auto border-2 w-16 border-blue-800 mt-2"></div>
+
+        <div class="flex flex-col mt-14 md:flex-row justify-center items-center">
+            <!-- <div class=" flex flex-row"> -->
+            <div class="w-80 bg-slate-100 md:w-64 mb-5 mx-4 h-64 p-2 px-2 shadow-lg shadow-slate-300">
+                <img class="w-20 mx-auto" src="images/rocket.png" alt="">
+                <div class="font-semibold text-center text-slate-800 text-lg">Fast Delivery</div>
+                <div class="mx-auto border-2 w-9 border-blue-800 mt-2"></div>
+                <div class="text-center">
+                    <p>Cooperating with us you
+                        are guaranted to have cargo as
+                        soon as possible</p>
+                </div>
+            </div>
+            <!-- <img src="images/rocket.png" alt=""> -->
+            <div class="w-80 bg-slate-100 md:w-64 mb-5 mx-4 h-64 p-2 px-2 shadow-lg shadow-slate-300">
+                <img class="w-20 mx-auto" src="images/support.png" alt="">
+                <div class="font-semibold text-center text-slate-800 text-lg">24/7 Support</div>
+                <div class="mx-auto border-2 w-9 border-blue-800 mt-2"></div>
+                <div class="text-center">
+                    <p>We provide you with 24/7 support
+                        which allow you to track your
+                        goods at any point in time </p>
+                </div>
+            </div>
+            <!-- </div> -->
+
+            <!-- <div class="flex flex-row"> -->
+            <div class="w-80 bg-slate-100 md:w-64 mb-5 mx-4 h-64 p-2 px-2 shadow-lg shadow-slate-300">
+                <img class="w-20 mx-auto" src="images/money-bag.png" alt="">
+                <div class="font-semibold text-center text-slate-800 text-lg">Affordable</div>
+                <div class="mx-auto border-2 w-9 border-blue-800 mt-2"></div>
+                <div class="text-center">
+                    <p>We have the lowest pricing
+                        on the market and offer
+                        affordable solutions</p>
+                </div>
+            </div>
+
+            <div class="w-80 bg-slate-100 md:w-64 h-64 mb-5 mx-4 p-2 px-2 shadow-lg shadow-slate-300">
+                <img class="w-20 mx-auto" src="images/folders.png" alt="">
+                <div class="font-semibold text-center text-slate-800 text-lg">Secure Services</div>
+                <div class="mx-auto border-2 w-9 border-blue-800 mt-2"></div>
+                <div class="text-center">
+                    <p>We provide our client with
+                        professional and secure
+                        transportation services</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="background2" class="mt-32 justify-center text-center text-white">
+        <h1 class="text-3xl font-semibold mt-14 text-slate-800">About Us</h1>
+        <div class="mx-auto border-2 w-12 border-blue-800 mt-2 mb-14 md:mb-14"></div>
+
+        <div class="flex flex-col-reverse mb-8 md:flex-row justify-center ">
+            <div
+                class="flex flex-col w-[530px] md:w-[510px] h-[470px] bg-blue-900 text-center text-lg justify-center mx-auto md:mx-10 space-y-4">
+                <p class="justify-center text-xl mx-14 text-center">
+
+                    Our company was founded with the mission of providing top-notch
+                    logistics services that help businesses streamline their operations
+                    and achieve their goals. Over the years, we have built a reputation
+                    for excellence in the industry, thanks to our commitment to quality,
+                    reliability, and customer satisfaction.
+                </p>
+
+            </div>
+            <div>
+                <img class="hidden md:flex relative w-[440px] h-[385px] md:right-20 md:top-16" src="images/About3b.jpg"
+                    alt="">
+            </div>
+
+        </div>
+        <a href="/about.html" class="px-4 py-3 bg-black text-center text-lg text-white">
+            Read More
+        </a>
+
+
+    </section>
+
+    <section>
+        <h1 class="text-center text-3xl text-slate-800 font-semibold mt-32">Our Services</h1>
+        <div class="mx-auto border-2 w-16 border-blue-800 mt-2 mb-16"></div>
+
+
+        <div class="flex flex-col items-center space-y-4 ">
+            <div class="flex md:flex-row flex-col md:space-x-8 md:space-y-0 space-y-4">
+                <div class="flex flex-col w-[400px] text-center items-center bg-slate-100 shadow-lg shadow-slate-300">
+
+                    <img class="mt-4 w-[370px] h-64" src="images/freightForwarding2.jpg" alt="boat">
+
+                    <h2 class="text-lg font-semibold mt-3">Freight Forwarding</h2>
+                    <div class="mx-auto border-2 w-12 border-blue-800 mt-1 mb-2"></div>
+
+                    <p class="mb-5 mx-2">
+                        Freight forwarding services include air,
+                        sea, and land transportation.
+                    </p>
+
+                </div>
+
+                <div class="flex flex-col w-[400px] text-center items-center bg-slate-100 shadow-lg shadow-slate-300">
+
+                    <img class="mt-4 w-[370px] h-64" src="images/manWithNoseMask.avif" alt="">
+                    <h2 class="text-lg font-semibold mt-1"> Customs Brokerage</h2>
+                    <div class="mx-auto border-2 w-12 border-blue-800 mt-1 mb-2"></div>
+
+                    <p class="mb-5 mx-2">
+                        A customs brokerage services that help you navigate
+                        the complex world of customs regulations
+                    </p> 
+                </div>
+
+                <!-- <div class=" flex flex-col text-center items-center w-96 md:w-72 bg-slate-100 shadow-lg shadow-slate-300" >
+                                  
+                    <img class="w-80 mt-2 md:w-64 h-52 md:h-48" src="images/premium_photo-1664475043924-150fa96f0816.avif" alt="">
+                    <h2 class="text-lg font-semibold mt-1"> Warehousing and Distribution</h2>
+                    <div class="mx-auto border-2 w-12 border-blue-800 mt-1 mb-2"></div>
+
+                    <p>
+                        We offer secure and reliable warehousing and distribution 
+                        services to help you manage your inventory and streamline your supply chain. 
+                        Our warehouses are equipped with advanced technology to ensure that your 
+                        products are stored and managed efficiently
+                    </p>
+                </div> -->
+
+
+            </div>
+
+            <div class="flex md:flex-row flex-col md:space-x-8 md:space-y-0 space-y-4">
+                <div class="flex flex-col w-[400px] text-center items-center bg-slate-100 shadow-lg shadow-slate-300">
+
+                    <img class="mt-4 w-[370px] h-64" src="images/premium_photo-1663051031555-216799cd1dad.avif" alt="">
+                    <h2 class="text-lg font-semibold mt-1"> Transportation Management</h2>
+                    <div class="mx-auto border-2 w-12 border-blue-800 mt-1 mb-2"></div>
+
+                    <p class="mb-5 mx-2">
+                        Transportation management services that can help you optimize
+                        your transportation operations and reduce costs.
+                    </p>
+                </div>
+
+                <div class="flex flex-col w-[400px] text-center items-center bg-slate-100 shadow-lg shadow-slate-300">
+
+                    <img class="mt-4 w-[370px] h-64" src="images/premium_photo-1664475043924-150fa96f0816.avif" alt="">
+                    <h2 class="text-lg font-semibold mt-1"> Warehousing and Distribution</h2>
+                    <div class="mx-auto border-2 w-12 border-blue-800 mt-1 mb-2"></div>
+
+                    <p class="mb-5 mx-2">
+                        We offer secure and reliable warehousing and distribution
+                        services to help you manage your inventory and streamline your supply chain.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-10 text-center">
+            <a href="/about.html" class="mt-8 px-5 py-3 bg-black text-center text-lg text-white">
+                Find Out More
+            </a>
+        </div>
+    </section>
+
+    <section>
+        <div class="flex items-center justify-center">
+            <form class="flex md:hidden mt-48 relative flex-col space-y-7" action="">
+                <div class="text-center text-3xl">
+                    Subscibe To Our Newsletters
+                </div>
+                <div class="flex flex-row space-x-5 ">
+                    <div class="flex flex-col">
+                        <!-- <input class="bg-blue-900 mt-5 border-b-2 border-white" type="text" placeholder="Full Name"> -->
+                        <input class="h-10 mt-5 border-b-2 border-black w-80" type="email" name="email"
+                            placeholder="Email" id="">
+                    </div>
+                    <div class="">
+                        <input class="relative text-white top-3 bg-black px-5 py-3" type="submit" value="submit">
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-blue-900 md:mt-52 mt-28 px-4 py-8 text-white justify-center">
+
+        <div class="flex justify-between md:mx-0">
+            <div class="ml-14 space-y-6">
+                <h1 class="text-xl">
+                    Contact
+                </h1>
+                <div class="space-y-2">
+                    <p class="font-semibold">
+                        SwiftLogix
+                    </p>
+                    <p>
+                        Tel +386 00 000 010
+                    </p>
+                    <p>
+                        Email swiftlogix@gmail.com
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="flex flex-col mr-0 space-y-5">
+                <div class="text-xl">Category</div>
+
+                <div class="flex flex-col text-lg space-y-1">
+                    <a class="hover:text-slate-400" href="#">Home</a>
+                    <a class="hover:text-slate-400" href="about.html">About Us</a>
+                    <a class="hover:text-slate-400" href="services.html">Services</a>
+                    <a class="hover:text-slate-400" href="Contact.html">Contact</a>
+                </div>
+
+            </div>
+
+            <div class="hidden md:flex flex-col space-y-6">
+                <h2 class="text-lg"> Stay Connected</h2>
+                <div class="space-y-1">
+                    <div class="flex flex-row space-x-3">
+                        <img class="w-7" src="images/facebook.png" alt="">
+                        <h2>Facebook</h2>
+                    </div>
+
+                    <div class="flex flex-row space-x-3">
+                        <img class="w-7" src="images/instagram.png" alt="">
+                        <h2>Instagram</h2>
+                    </div>
+
+                    <div class="flex flex-row space-x-3">
+                        <img class="w-7" src="images/youtube.png" alt="">
+                        <h2>Youtube</h2>
+                    </div>
+
+                    <div class="flex flex-row space-x-3">
+                        <img class="w-7" src="images/twitter-sign.png" alt="">
+                        <h2>Twitter</h2>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class=" flex">
+                <form class="hidden relative text-center justify-center md:flex flex-col space-y-5" action="">
+                    <div>
+                        Subscibe To Our Newsletters
+                    </div>
+                    <div class="flex flex-row space-x-3 ">
+                        <div class="flex flex-col">
+                            <!-- <input class="bg-blue-900 mt-5 border-b-2 border-white" type="text" placeholder="Full Name"> -->
+                            <input class="bg-blue-900 mt-5 border-b-2 border-white w-52" type="email" name="email"
+                                placeholder="Email" id="">
+                        </div>
+                        <div class="">
+                            <input class="relative top-2 bg-black p-2" type="submit" value="submit">
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="md:hidden mt-14 flex flex-col text-white items-center space-y-3">
+            <h2 class="text-lg"> Stay Connected</h2>
+            <div class="flex flex-row space-x-4 mb-12">
+                <div class="flex">
+                    <img class="w-12 h-12" src="images/facebook.png" alt="">
+                </div>
+
+                <div class="flex">
+                    <img class="w-12 h-12" src="images/instagram.png" alt="">
+                </div>
+
+                <div class=" space-x-3">
+                    <img class="w-12 h-12" src="images/youtube.png" alt="">
+                </div>
+
+                <div class="flex flex-row space-x-3">
+                    <img class="w-12 h-12" src="images/twitter-sign.png" alt="">
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="md:hidden text-center mt-9">
+            Copyright &copy; 2023, All Rights Reserved
+        </div>
+
+        <div class="hidden md:block mt-14 mr-2 mb-0 text-right">
+            Copyright &copy; 2023, All Rights Reserved
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

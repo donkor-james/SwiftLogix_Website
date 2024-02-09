@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#hero {
+    background-image: linear-gradient(rgba(3, 3, 3, 0.4), rgba(3, 3, 3, 0.4)), url('../images/Cargo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+
+#contact-hero{
+    background-image: linear-gradient(rgba(3, 3, 3, 0.3), rgba(3, 3, 3, 0.6)), url('../images/ContactUs.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+
+#services-hero{
+    background-image: linear-gradient(rgba(3, 3, 3, 0.3), rgba(3, 3, 3, 0.7)), url('../images/services.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+
+#about-hero{
+    background-image: linear-gradient(rgba(3, 3, 3, 0.3), rgba(3, 3, 3, 0.6)), url('../images/AboutUs2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+
+input::placeholder {
+    font-size: 22px;
+    color: rgb(148, 149, 153);
+    
+}
+
+input #contact-input ::placeholder {
+    font-size: 17px;
+    color: rgb(148, 149, 153);
+    
+}
+
+ input::placeholder:active{
+    border: 3px solid;
+    border-top: 19px;
+ }
+
+ .hamburger{
+    cursor: pointer;
+    width: 24px;
+    height: 26px;
+    transition: all 0.30s;
+    position: relative;
+
+  }
+
+  .hamburger-top,
+  .hamburger-middle,
+  .hamburger-bottom{
+    right: 2px;
+    top: 0px;
+    width: 24px;
+    height: 3px;
+    position: absolute;
+    background: rgb(8, 15, 49) ;
+    transform: rotate(0deg);
+    transition: all 0.45s;
+  }
+
+  .hamburger-middle{
+    transform: translateY(6px);
+  }
+
+  .hamburger-bottom{
+    transform: translateY(12px);
+  }
+
+  .open{
+    transform: rotate(90deg);
+    transform: translateY(-3px);
+  }
+
+  .open .hamburger-top{
+    transform: rotate(45deg) translateY(2px) translate(3px);
+
+
+  }
+
+  .open .hamburger-middle{
+    display: none;
+  }
+
+  .open .hamburger-bottom{
+    transform: rotate(-45deg) translateY(2px) translate(-3px);
+  }
+
+  .display-none{
+     display:hidden;
+  }
+
+
+ 

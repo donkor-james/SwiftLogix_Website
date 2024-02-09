@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- ===== Link Swiper's CSS ===== -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!-- ===== Fontawesome CDN Link ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+        
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    
+     <title>Card with Sliding Feature</title> 
+</head>
+<body>
+
+  <!-- <section>
+
+    <!-- <section>
+        <h1 class="text-center text-3xl text-slate-800 font-semibold mt-32">Our Services</h1>
+        <div class="mx-auto border-2 w-16 border-blue-800 mt-2 mb-16"></div>
+
+
+        <div class="flex flex-col items-center space-y-4 ">
+            <div class="flex md:flex-row space-x-5 flex-col md:space-x-8 md:space-y-0 space-y-4">
+                <div class="flex flex-col w-96 md:w-[400px] text-center items-center bg-slate-100 shadow-lg shadow-slate-300" >
+                                  
+                    <img class="w-80 mt-4 md:w-[370px] h-56 md:h-64" src="images/freightForwarding2.jpg" alt="boat">
+                    
+                    <h2 class="text-lg font-semibold mt-1">Freight Forwarding</h2>
+                    <div class="mx-auto border-2 w-12 border-blue-800 mt-1 mb-2"></div>
+
+                    <p>
+                        Our freight forwarding services include air, 
+                        sea, and land transportation. We work with a 
+                        network of trusted carriers to ensure that your 
+                        shipments are delivered on time and in good condition
+                    </p>
+    
+                </div>
+    
+                <div class="flex flex-col w-96 md:w-[400px] text-center items-center bg-slate-100 shadow-lg shadow-slate-300" >
+                                  
+                    <img class="w-80 mt-4 md:w-[370px] h-56 md:h-64" src="images/manWithNoseMask.avif" alt="">
+                    <h2 class="text-lg font-semibold mt-1"> Customs Brokerage</h2>
+                    <div class="mx-auto border-2 w-12 border-blue-800 mt-1 mb-2"></div>
+
+                    <p>
+                        Our customs brokerage services can help you navigate 
+                        the complex world of customs regulations and ensure that your 
+                        shipments are cleared quickly and smoothly. We have a team of 
+                        experienced customs brokers who can provide expert advice and guidance
+                    </p>
+                </div>
+    
+                <!-- <div class=" flex flex-col text-center items-center w-96 md:w-72 bg-slate-100 shadow-lg shadow-slate-300" >
+                                  
+                    <img class="w-80 mt-2 md:w-64 h-52 md:h-48" src="images/premium_photo-1664475043924-150fa96f0816.avif" alt="">
+                    <h2 class="text-lg font-semibold mt-1"> Warehousing and Distribution</h2>
+                    <div class="mx-auto border-2 w-12 border-blue-800 mt-1 mb-2"></div>
+
+                    <p>
+                        We offer secure and reliable warehousing and distribution 
+                        services to help you manage your inventory and streamline your supply chain. 
+                        Our warehouses are equipped with advanced technology to ensure that your 
+                        products are stored and managed efficiently
+                    </p>
+                </div> -->
+    
+            
+            </div>
+    
+            <div class="flex md:flex-row flex-col md:space-x-8 md:space-y-0 space-y-4" >
+                <div class=" flex flex-col text-center items-center w-96 md:w-72 bg-slate-100 shadow-lg shadow-slate-300" >
+                                  
+                    <img class="w-80 mt-2 md:w-64 h-52 md:h-48" src="images/premium_photo-1663051031555-216799cd1dad.avif" alt="">
+                    <h2 class="text-lg font-semibold mt-1"> Transportation Management</h2>
+                    <div class="mx-auto border-2 w-12 border-blue-800 mt-1 mb-2"></div>
+
+                    <p>
+                        Our transportation management services can help you optimize
+                        your transportation operations and reduce costs. We use advanced 
+                        logistics technology to track and manage your shipments, so you can have 
+                        peace of mind knowing that your products are in good hands
+                    </p>
+                </div>
+    
+                <div class=" flex flex-col text-center items-center w-96 md:w-72 bg-slate-100 shadow-lg shadow-slate-300" >
+                                  
+                    <img class="w-80 mt-2 md:w-64 h-52 md:h-48" src="images/premium_photo-1664475043924-150fa96f0816.avif" alt="">
+                    <h2 class="text-lg font-semibold mt-1"> Warehousing and Distribution</h2>
+                    <div class="mx-auto border-2 w-12 border-blue-800 mt-1 mb-2"></div>
+
+                    <p>
+                        We offer secure and reliable warehousing and distribution 
+                        services to help you manage your inventory and streamline your supply chain. 
+                        Our warehouses are equipped with advanced technology to ensure that your 
+                        products are stored and managed efficiently
+                    </p>
+                </div>
+            </div>
+    
+        </div>
+    </section>  -->
+    
+    <div class="swiper mySwiper container">
+      <div class="swiper-wrapper content">
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+             <img src="images/img1.jpg" alt=""> 
+            </div>
+
+            <div class="media-icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-github"></i>
+            </div>
+
+            <div class="name-profession">
+              <span class="name">Someone Name</span>
+              <span class="profession">Web Developer</span>
+            </div>
+
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <div class="button">
+              <button class="aboutMe">About Me</button>
+              <button class="hireMe">Hire Me</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="images/freightForwarding2.jpg" alt=""> 
+            </div>
+
+            <!-- <div class="media-icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-github"></i>
+            </div> -->
+
+            <div class="name-profession">
+              <span class="name">Someone Name</span>
+              <span class="profession">Web Developer</span>
+            </div>
+
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <div class="button">
+              <button class="aboutMe">About Me</button>
+              <button class="hireMe">Hire Me</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+           <img src="images/img3.jpg" alt=""> 
+            </div>
+
+            <div class="media-icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-github"></i>
+            </div>
+
+            <div class="name-profession">
+              <span class="name">Someone Name</span>
+              <span class="profession">Web Developer</span>
+            </div>
+
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <div class="button">
+              <button class="aboutMe">About Me</button>
+              <button class="hireMe">Hire Me</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+            <img src="images/img4.jpg" alt=""> 
+            </div>
+
+            <div class="media-icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-github"></i>
+            </div>
+
+            <div class="name-profession">
+              <span class="name">Someone Name</span>
+              <span class="profession">Web Developer</span>
+            </div>
+
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <div class="button">
+              <button class="aboutMe">About Me</button>
+              <button class="hireMe">Hire Me</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+
+              <img src="images/img5.jpg" alt=""> 
+
+            <div class="media-icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-github"></i>
+            </div>
+
+            <div class="name-profession">
+              <span class="name">Someone Name</span>
+              <span class="profession">Web Developer</span>
+            </div>
+
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <div class="button">
+              <button class="aboutMe">About Me</button>
+              <button class="hireMe">Hire Me</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+            <img src="images/img6.jpg" alt=""> 
+            </div>
+
+            <div class="media-icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-github"></i>
+            </div>
+
+            <div class="name-profession">
+              <span class="name">Someone Name</span>
+              <span class="profession">Web Developer</span>
+            </div>
+
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <div class="button">
+              <button class="aboutMe">About Me</button>
+              <button class="hireMe">Hire Me</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+             <img src="images/img7.jpg" alt=""> 
+            </div>
+
+            <div class="media-icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-github"></i>
+            </div>
+
+            <div class="name-profession">
+              <span class="name">Someone Name</span>
+              <span class="profession">Web Developer</span>
+            </div>
+
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <div class="button">
+              <button class="aboutMe">About Me</button>
+              <button class="hireMe">Hire Me</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+           <img src="images/img8.jpg" alt=""> 
+            </div>
+
+            <div class="media-icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-github"></i>
+            </div>
+
+            <div class="name-profession">
+              <span class="name">Someone Name</span>
+              <span class="profession">Web Developer</span>
+            </div>
+
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <div class="button">
+              <button class="aboutMe">About Me</button>
+              <button class="hireMe">Hire Me</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+            <img src="images/img9.jpg" alt=""> 
+            </div>
+
+            <div class="media-icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-github"></i>
+            </div>
+
+            <div class="name-profession">
+              <span class="name">Someone Name</span>
+              <span class="profession">Web Developer</span>
+            </div>
+
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <div class="button">
+              <button class="aboutMe">About Me</button>
+              <button class="hireMe">Hire Me</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+  </section>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+</body>
+</html>
